@@ -1,54 +1,71 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
-<meta http-equiv="refresh" content="300" />
-<meta name="Language" content="English" />
-<title>Wind Turbine Data</title>
-  <link rel="icon" type="image/png" href="images/turbine.png" />
-
-<style type="text/css" title="layout" media="screen"> @import url("style.css"); </style>
-
-</head>
-
-<body>
-<div id="container">
-	<div class="contentheader"></div>		
-		<div class="maincontainer">
-			<div id="menu">
-				<div id="nav"><a href="index.html" style="color:white;font-size:25px;" title="Home">Home</a><!-- | <a href="history.html" title="History">History</a> | <a href="contact.html" title="Contact">Contact</a>--></div>
-			</div>
-				<div class="content">
-				<hr /><br />
-<p>
-<center>
-<p style="font-size:50px;">-Wind Turbine Data-</p>
-<img src="images/head.png" alt="Petrogaz Logo" />
-<br><br><br>
-<img src="images/under-construction.png" class="floatleft" />
-<p style="font-size:35px"><b>UNDER CONSTRUCTION</b></p>
-<br><br>
-<img vspace="5" src="images/speed.png" alt="Wind Speed Graph" width=558 height=351 style="float:left" />
-<img vspace="81" src="images/wind_now.png" alt="Wind Direction Now" width=196 height=196 style="float:center" />
-<br>
-<img vspace="5" src="images/watt.png" alt="Power Graph" width=558 height=351 style="float:left" />
-<img vspace="5" src="images/wind.png" alt="Wind Direction Graph" width=558 height=351 style="float:right" />
-<br>
-<img vspace="5" src="images/rpm.png" alt="Rotational Speed Graph" width=558 height=351 style="float:left" />
-<img vspace="5" src="images/acceleration.png" alt="Wind Acceleration Graph" width=558 height=351 style="float:right" />
-<br>
-<tfoot>
-<tr>
-  <td height=30><br><br><br><br><br><br><br>Web Design: <a href="mailto:solanosalex@gmail.com">Alex Solanos</a></td>
-</tr>
-</tfoot>
-
-</center>
-</p>
-				</div>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Alex Solanos">
+		<meta http-equiv="refresh" content="300">
+		<link rel="icon" type="image/png" href="favicon.png" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<title>Chios1 Wind Turbine</title>
+	</head>
+	<body>
+		<div id="headerImg">
+			<img src="images/head.png">
 		</div>
-</div>
-			<div class="bottom"></div>
-
-</body>
+		<div id="mainContent">
+			<header>
+				<a id="currentA" href="index.html">Home</a>
+				<a href="totals.php">Energy</a>
+			</header>
+			<section id="graphs">
+				<h1>Site: Chios1</h1>
+				<h2>-Wind Turbine Data-</h2>
+				<div class="imgGroup">
+					<div class="groupImg">
+						<a href="images/speed.png">
+							<img src="images/speed.png" alt="Wind Speed Graph">
+						<a/>
+					</div>
+					<div class="groupImg">
+						<div class="strongCenter">
+							<a href="images/wind_now.png">
+								<img src="images/wind_now.png" alt="Wind Direction Now">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="clearAll"></div>
+				<div class="imgGroup">
+					<div class="groupImg">
+						<a href="images/watt.png">
+							<img src="images/watt.png" alt="Power Graph">
+						</a>
+					</div>
+					<div class="groupImg">
+						<a href="images/wind.png">
+							<img src="images/wind.png" alt="Wind Direction Graph">
+						</a>
+					</div>
+				</div>
+				<div class="clearAll"></div>
+				<div class="imgGroup">
+					<div class="groupImg">
+						<a href="images/rpm.png">
+							<img src="images/rpm.png" alt="Rotational Speed Graph">
+						</a>
+					</div>
+					<div class="groupImg">
+						<a href="images/acceleration.png">
+							<img src="images/acceleration.png" alt="Wind Acceleration Graph">
+						</a>
+					</div>
+				</div>
+				<div class="clearAll"></div>
+				<p>Please note that this page auto-refreshes every 5 minutes.</p>
+			</section>
+		</div>
+	<footer>
+		<p>&copy; Designed by <a href="mailto:alexsol.developer@gmail.com">Alex Solanos</a></p>
+	</footer>
+	</body>
 </html>
